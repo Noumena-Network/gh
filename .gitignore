@@ -1,0 +1,4 @@
+/bin/
+/dist/
+/release-assets/
+.DS_Store

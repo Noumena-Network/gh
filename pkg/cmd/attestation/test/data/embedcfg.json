@@ -1,0 +1,1 @@
+{"Patterns":{"github_release_bundle.json":["github_release_bundle.json"],"sigstore-js-2.1.0-bundle.json":["sigstore-js-2.1.0-bundle.json"]},"Files":{"github_release_bundle.json":"gh/pkg/cmd/attestation/test/data/github_release_bundle.json","sigstore-js-2.1.0-bundle.json":"gh/pkg/cmd/attestation/test/data/sigstore-js-2.1.0-bundle.json"}}

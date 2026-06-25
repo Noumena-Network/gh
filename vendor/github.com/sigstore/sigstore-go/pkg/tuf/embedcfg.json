@@ -1,0 +1,1 @@
+{"Patterns":{"repository":["repository/root.json","repository/staging_root.json"]},"Files":{"repository/root.json":"gh/vendor/github.com/sigstore/sigstore-go/pkg/tuf/repository/root.json","repository/staging_root.json":"gh/vendor/github.com/sigstore/sigstore-go/pkg/tuf/repository/staging_root.json"}}

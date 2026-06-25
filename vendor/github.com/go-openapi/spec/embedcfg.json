@@ -1,0 +1,1 @@
+{"Patterns":{"schemas/*.json":["schemas/jsonschema-draft-04.json","schemas/v2/schema.json"],"schemas/*/*.json":["schemas/v2/schema.json"]},"Files":{"schemas/jsonschema-draft-04.json":"gh/vendor/github.com/go-openapi/spec/schemas/jsonschema-draft-04.json","schemas/v2/schema.json":"gh/vendor/github.com/go-openapi/spec/schemas/v2/schema.json"}}
