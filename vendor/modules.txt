@@ -19,7 +19,7 @@ charm.land/huh/v2
 charm.land/huh/v2/internal/accessibility
 charm.land/huh/v2/internal/compat
 charm.land/huh/v2/internal/selector
-# charm.land/lipgloss/v2 v2.0.3
+# charm.land/lipgloss/v2 v2.0.4
 ## explicit; go 1.25.0
 charm.land/lipgloss/v2
 # dario.cat/mergo v1.0.2
