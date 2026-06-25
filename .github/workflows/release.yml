@@ -38,7 +38,7 @@ jobs:
       publish: ${{ steps.release.outputs.publish }}
       checkout_ref: ${{ steps.release.outputs.checkout_ref }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
           ref: ${{ github.event_name == 'workflow_dispatch' && (inputs.publish && inputs.tag || inputs.ref) || github.ref }}
@@ -116,7 +116,7 @@ jobs:
             runner: macos-15-intel
             platform: darwin-x64
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ needs.preflight.outputs.checkout_ref }}
       - uses: actions/setup-go@v5
@@ -161,7 +161,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ needs.preflight.outputs.checkout_ref }}
       - uses: actions/download-artifact@v4
