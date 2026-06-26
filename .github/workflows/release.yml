@@ -133,7 +133,7 @@ jobs:
           scripts/package.sh "$version" "${{ matrix.platform }}" release-assets
       - name: Generate artifact attestations
         if: ${{ needs.preflight.outputs.publish == 'true' }}
-        uses: actions/attest@v4
+        uses: actions/attest@v4.1.0
         with:
           subject-path: release-assets/*
       - uses: actions/upload-artifact@v4
